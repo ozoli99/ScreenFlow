@@ -1,0 +1,477 @@
+[
+    {
+        "id": "series1",
+        "year": 2016,
+        "title": "Stranger Things",
+        "plot": "When Will Byers suddenly goes missing, the whole town of Hawkins, Indiana, turns upside down. Many people are on the search for Will, including his mother Joyce, his brother Jonathan, his friends Mike, Dustin, and Lucas, Police Chief Jim Hopper, and other notable people. But one thing leads to another, creating a supernatural trail. And things get even weirder when a little girl with a shaved head comes into the story.",
+        "cover": "https:\/\/m.media-amazon.com\/images\/I\/81PkURLEK1L._SL1500_.jpg",
+        "episodes": [
+            {
+                "1": {
+                    "id": "1",
+                    "date": "2016-07-15",
+                    "title": "Chapter One: The Vanishing of Will Byers",
+                    "plot": "At the U.S. Dept. of Energy an unexplained event occurs. Then when a young Dungeons and Dragons playing boy named Will disappears after a night with his friends, his mother Joyce and the town of Hawkins are plunged into darkness.",
+                    "rating": 8.5,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABYtfkVLxw6lawtNwtIyOhLDnTEXi2AvuyqYG3i-jZ3Y1mrRsZCJAt8mcAxiZqZHQvCS2pl4StiieJUrohIS70br7yzenTsQqVgsVKq3C5A8vuoL_GstEWeB7.jpg?r=d74"
+                }
+            },
+            {
+                "2": {
+                    "id": "2",
+                    "date": "2016-07-15",
+                    "title": "Chapter Two: The Weirdo on Maple Street",
+                    "plot": "Mike hides the mysterious girl in his house. Joyce gets a strange phone call.",
+                    "rating": 8.4,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABQtwsxsHgdgWIND4fSpPITza0IkQHiqZDXdeVicRWtG9JhFAws01znsKfW8XeqW_2WWBmJpqpnmdN9b7uOy3ePJ2P0Rb30PJsTNGWkXTV0aFZDawHX8kIN3Z.jpg?r=cc9"
+                }
+            },
+            {
+                "3": {
+                    "id": "3",
+                    "date": "2016-07-15",
+                    "title": "Chapter Three: Holly, Jolly",
+                    "plot": "An increasingly concerned Nancy looks for Barb and finds out what Jonathan's been up to. Joyce is convinced Will is trying to talk to her.",
+                    "rating": 8.8,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABfvDB1xGZuh-SkB7WccIvvvpGTvyOaoYqtePmpAV3pfCbB01RJbg2srq_yIL9UXu-tvyPH9oHIPbiXRfUsL8P7d7LLHxwZeSGpen3Bwyw7gCzFO0XYaBPOku.jpg?r=8da"
+                }
+            },
+            {
+                "4": {
+                    "id": "4",
+                    "date": "2016-07-15",
+                    "title": "Chapter Four: The Body",
+                    "plot": "Refusing to believe Will is dead, Joyce tries to connect with her son. The boys give Eleven a makeover. Jonathan and Nancy form an unlikely alliance.",
+                    "rating": 8.9,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABdzKIQH8A3SQH-wskeLalpim9WLRgzXj5TzEG0cg2K3IFnKGvjqJYguqdHfUXwod-Wt70H_mkWlcx3_25eD3ZuywDNnlz0uM_5stE7pFhrg3lIMhbTW7ubMc.jpg?r=6ad"
+                }
+            },
+            {
+                "5": {
+                    "id": "5",
+                    "date": "2016-07-15",
+                    "title": "Chapter Five: The Flea and the Acrobat",
+                    "plot": "Hopper breaks into the lab to find the truth about Will's death. The boys try to locate the 'gate' that will take them to Will.",
+                    "rating": 8.7,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABQ4GYyP7zd6_FkLaO3FRYw0Zxvi71gu1R3Jg7HNIpg9uUYIvL_UxeUKWTWJPqYjdsd5RL_fmg_tJKKs6rlzsyalFS7XlIcaHm8rskzSkWaQZDCbjWhAg92TP.jpg?r=6d4"
+                }
+            },
+            {
+                "6": {
+                    "id": "6",
+                    "date": "2016-07-15",
+                    "title": "Chapter Six: The Monster",
+                    "plot": "Hopper and Joyce find the truth about the lab's experiments. After their fight, the boys look for the missing Eleven.",
+                    "rating": 8.8,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABZYtlWKeXj822vSsWsZwbfTqlG7q6IHCc3rpBErf6KCNifHLs6uQpbQn-qxpeJ3sXuRIRTTR3B8LXLEqyJ-1nPayOq_k4HwmOMC6tXcoc5KT0b8jXvG-zb92.jpg?r=3df"
+                }
+            },
+            {
+                "7": {
+                    "id": "7",
+                    "date": "2016-07-15",
+                    "title": "Chapter Seven: The Bathtub",
+                    "plot": "The government comes searching for Eleven. Eleven looks for Will and Barb in the Upside Down.",
+                    "rating": 9,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABcTY1K2KcB54vDJTTv0wsTJvwqqGPSQszqMMsE0yj5UX2ye5XxYQcZ4J1SUtfJeOCAJYaV6DAfSyql_lCjs5RK2S28UHNWdwdSVj4RMdSS4mRntXgebiHiPB.jpg?r=779"
+                }
+            },
+            {
+                "8": {
+                    "id": "8",
+                    "date": "2016-07-15",
+                    "title": "Chapter Eight: The Upside Down",
+                    "plot": "Joyce and Hopper are taken in for questioning. Nancy and Jonathan prepare to fight the monster and save Will.",
+                    "rating": 9.3,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABawN4HxPOBDfKODu0UjV0_56nLnOLWH96o046h8MUtHcEb5OjoWlTL0DaE3nJfC4gwPY5_qB6LoKvOhmUnIoxY_t5x11g4T281G9CN44T9HF1ustK91mBxfE.jpg?r=4b6"
+                }
+            }
+        ]
+    },
+    {
+        "id": "series2",
+        "year": 2013,
+        "title": "Vikings",
+        "plot": "Vikings transports us to the brutal and mysterious world of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore - and raid - the distant shores across the ocean.",
+        "cover": "https:\/\/www.filmmusicsite.com\/en\/images\/covers\/large\/79148.jpg",
+        "episodes": [
+            {
+                "1": {
+                    "id": "1",
+                    "date": "2013-09-13",
+                    "title": "Rites of Passage",
+                    "plot": "Ragnar goes on a trip of initiation with his son. Meanwhile, he thinks he has finally found a way to sail ships to the west. However, his beliefs are seen as insane so he chooses to go against the law.",
+                    "rating": 7.6,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABeiD6D9Xjk6P-UM_EvPwKT-0600bCV5yTo6ou2fjhMltMTC0gKM5hbiwe2k4g0vQRe7eqFmFel2YtnCAV7OBS6SBTTmlC_l6hwRH4PiA7tbJbKKVXFp2eObV.jpg?r=f5c"
+                }
+            },
+            {
+                "2": {
+                    "id": "2",
+                    "date": "2013-09-13",
+                    "title": "Wrath of the Northmen",
+                    "plot": "The stage is set for the first journey west by Ragnar Lothbrok as he gathers a crew willing to risk their lives to travel into the unknown.",
+                    "rating": 7.8,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABXbKj1f7664zZuMDFdRFabJgs5tXF-WVLMDRqN5ZukD3DM220c5u-8jUjORHjUdzSD2UrqXGRAoJ1NVPFV77dQxkyiIRjCgwht5jfIkmjluYCzERh1lQYtqH.jpg?r=0de"
+                }
+            },
+            {
+                "3": {
+                    "id": "3",
+                    "date": "2013-09-13",
+                    "title": "Dispossessed",
+                    "plot": "After his successful raid, Ragnar and his crew joyously return home with their riches. Earl Haraldson doesn't hesitate to summon Ragnar to the great hall where he lays claim to the entirety of the treasure. He allows the crew to take one thing from the hoard and Ragnar selects Brother Athelstan as his slave. From Athelstan, he learns the political structure in England and wants to learn some of the language. Haraldson sanctions a new raid but insists that one of his men, Knute, join Ragnar's crew. Ragnar takes his wife this time and surprises everyone by putting Athelstan in charge of the farm.",
+                    "rating": 7.9,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABacRNF9YSi6DH7pFEB711vhfg-cEy0d5JeVAYzTTpTGJjVHUSe-PlhviGvcQn5ZFKjb_q3X4ErfOoCVISb1v3uTOlhzg8hM6I_Y6KmZDNbfwmL0qJfsQzPd9.jpg?r=50d"
+                }
+            },
+            {
+                "4": {
+                    "id": "4",
+                    "date": "2013-09-14",
+                    "title": "Trial",
+                    "plot": "The Vikings head back to England to see what other treasures this new world has to offer. This go round Ragnar and his crew sail out with Earl Haraldson's permission.",
+                    "rating": 8.2,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABTsI_FtlgYJNrs1Quevt5jPFcD6vULucQ58qEdOyvn90tp4zXRyqWzmZkMTA-v3bD01N-j94JFQ7fxVK6kBk4QssQmJrEvEazdqU4Mtrh0MwcH1pHD4cCd5j.jpg?r=c50"
+                }
+            },
+            {
+                "5": {
+                    "id": "5",
+                    "date": "2013-09-14",
+                    "title": "Raid",
+                    "plot": "In the Great Hall of Kattegat, a seer reads Earl Haraldson's future and tells him that Ragnar Lothbrok searches for his death.",
+                    "rating": 8.2,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABQ01-iSZ077fOMU2WlL0GJkanEvvJvvjgd984Sv21nr25Dv9cnyBpZ0g48hGZcdzWKJGtTS6p9P4FoerjgqwLTIBPNbL1I4Mzs-FToBWrVWQ0lZwaEg8DKA5.jpg?r=4e8"
+                }
+            },
+            {
+                "6": {
+                    "id": "6",
+                    "date": "2013-09-14",
+                    "title": "Burial of the Dead",
+                    "plot": "Ragnar, weak and still hurt, must meet the Earl head-on after it comes to light that Rollo has been tortured on Haraldson's orders.",
+                    "rating": 8.2,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABT0qA0k3FSSqns2NVk_yVda3IP7VenZwAoEwBaIZH_FBb3EeQFBIQSQCKZl693bKxFRBMW47Gs6nxYh4jRU0KgRy_VOFEKbP-JZkz55ArnlJRkJ-nW7MdO81.jpg?r=72e"
+                }
+            },
+            {
+                "7": {
+                    "id": "7",
+                    "date": "2013-09-15",
+                    "title": "A King's Ransom",
+                    "plot": "Three Viking ships sail upriver towards the very heart of power in eastern England: the Royal Villa of King Aelle.",
+                    "rating": 8.4,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABTNK9L9Nz31BEI7cegHUufG16fqvpwmWKoy61-YKrjOuMPh1tSLsirkr6YW_yg7SiduNrbN5U4q5JvOcinIW86dGZHvXEg_SILZuVIlJ8VhYjOtZBTx6mJLf.jpg?r=517"
+                }
+            },
+            {
+                "8": {
+                    "id": "8",
+                    "date": "2013-09-15",
+                    "title": "Sacrifice",
+                    "plot": "The traditional pilgrimage to Uppsala to thank the gods brings a torrent of emotions for Ragnar, Lagertha, and Athelstan.",
+                    "rating": 7.7,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABQVTuZWaGRHrvf2Ru4-uX1ljqwo0pdgUWmMKSlXce7wAICs1tmsDQypnkyrpUd-SqLpyA-eXYh9QHsZTHRx69NyPR_luy31hGuIkhCxU_BlrfhwWNXTI4Py8.jpg?r=0ca"
+                }
+            },
+            {
+                "9": {
+                    "id": "9",
+                    "date": "2013-09-15",
+                    "title": "All Change",
+                    "plot": "At the behest of King Horik, Ragnar assembles a small party to travel to Gotaland (modern day Sweden) to resolve a land dispute with the area's leader, Jarl Borg.",
+                    "rating": 7.7,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABXjLv8SmA4XBRiCuCrilva2-NDChAlDdH9mx3O-CJOysXnxJR8EGgN5uXEDw2dUshHZKk69xXrc2HXZ3CLJD1C2E_Nayp_7OVAIEPdJtFSjjUeoSWSqh6s5v.jpg?r=3eb"
+                }
+            }
+        ]
+    },
+    {
+        "id": "series3",
+        "year": 2019,
+        "title": "The Witcher",
+        "plot": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+        "cover": "https:\/\/i1.sndcdn.com\/artworks-000670213981-guna50-t500x500.jpg",
+        "episodes": [
+            {
+                "1": {
+                    "id": "1",
+                    "date": "2019-12-20",
+                    "title": "The End's Beginning",
+                    "plot": "Hostile townsfolk and a cunning mage greet Geralt in the town of Blaviken. Ciri finds her royal world upended when Nilfgaard sets its sights on Cintra.",
+                    "rating": 8.2,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABRQQpLQn6XGMGPQ7DQJSOwwNookZLAs6F3CAbUoL_1HagK4qeD5DVDZ0y7wWWZgWYa8SkxSQRG1KAwLywAMDfoABZLSM6eUHb5Xa0ts35-6UNBcVEKAcJIfA.jpg?r=6a6"
+                }
+            },
+            {
+                "2": {
+                    "id": "2",
+                    "date": "2019-12-20",
+                    "title": "Four Marks",
+                    "plot": "Bullied and neglected, Yennefer accidentally finds a means of escape. Geralt's hunt for a so-called devil goes to hell. Ciri seeks safety in numbers.",
+                    "rating": 7.7,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABXoxXuke6RYqh29Gt0MWMPEzBMf0V7nySIyYx-wWpDL9CH0sL3T1QR86pfpWdesG_IilYhu2s29pjk6ew3WXrrkOq5FWQbfrRbnJUfgCiHmE7xM9C37ybeGF.jpg?r=80b"
+                }
+            },
+            {
+                "3": {
+                    "id": "3",
+                    "date": "2019-12-20",
+                    "title": "Betrayer Moon",
+                    "plot": "Geralt takes on another Witcher's unfinished business in a kingdom stalked by a ferocious beast. At a brutal cost, Yennefer forges a magical new future.",
+                    "rating": 8.6,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABXd274JgLDnuVVDvdhAeijApr0s5uPL7AM9x6-rJUDmmXozQA71Dv0mDh5B0grGzE73A22Y7xQJkk9LPf8ifow4V_UWs0eLUp6ZE3HrIqnvJs56igRESK5z-.jpg?r=772"
+                }
+            },
+            {
+                "4": {
+                    "id": "4",
+                    "date": "2019-12-20",
+                    "title": "Of Banquets, Bastards and Burials",
+                    "plot": "Against his better judgment, Geralt accompanies Jaskier to a royal ball. Ciri wanders into an enchanted forest. Yennefer tries to protect her charges.",
+                    "rating": 8.4,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABYoWEfVfKXrEtorYco22GM8cdpWSmQYt8_TDlh56xbjSJ9hyNuiv2-PpImccal3A2wqnkMoqPqwel2x25J2xFMDJAVWQKir7iFq0tn5tumOmXLAxOv2HWU4h.jpg?r=34e"
+                }
+            },
+            {
+                "5": {
+                    "id": "5",
+                    "date": "2019-12-20",
+                    "title": "Bottled Appetites",
+                    "plot": "Heedless of warnings, Yennefer looks for a cure to restore what she's lost. Geralt inadvertently puts Jaskier in peril. The search for Ciri intensifies.",
+                    "rating": 8.3,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABaBDXXCO9ogqWgTaGBU7bxz0QfplgitCDnlOnWjhcqwTV7oDA9gjslidlY4YNzxRRx7xfRuLqI1Yk8dEL2HPdPURRSLtOER75y48OTH3xna-0gBQcdoHoyiP.jpg?r=b4e"
+                }
+            },
+            {
+                "6": {
+                    "id": "6",
+                    "date": "2019-12-20",
+                    "title": "Rare Species",
+                    "plot": "A mysterious man tries to entice Geralt to join a hunt for a rampaging dragon, a quest that attracts a familiar face. Ciri questions who she can trust.",
+                    "rating": 8.1,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABVZIhiM_LpD5fKKI08_uISV0Methc0SD26DP3ExJQr4z8ELx4hnQQYJxVOCSTc6mJnM6yEtgQlj6m8RlyNRiptkJ3tlvWTz9QVm1MOKbryfrvPs9x298Wpqb.jpg?r=285"
+                }
+            },
+            {
+                "7": {
+                    "id": "7",
+                    "date": "2019-12-20",
+                    "title": "Before a Fall",
+                    "plot": "With the Continent at risk from Nilfgaard's rising power, Yennefer revisits her past, while Geralt reconsiders his obligation to the Law of Surprise.",
+                    "rating": 8.4,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABS7Ua1ANRLKVli4f2NGjIru87iBo0LkwfyfMv6cno5XJi9h40ZPRGs_s0_da_Bv5WPczM1g8Hg6q6Mw4MUiGliduqvgMLEPobmbVO4BB1rUq0jW_2swVyyrc.jpg?r=746"
+                }
+            },
+            {
+                "8": {
+                    "id": "8",
+                    "date": "2019-12-20",
+                    "title": "Much More",
+                    "plot": "A terrifying pack of foes lays Geralt low. Yennefer and her fellow mages prepare to fight back. A shaken Ciri depends on the kindness of a stranger.",
+                    "rating": 8.8,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABdKyEdNcmL126apXOpEWOJDu8MQ7gi31Kpox8UAX9EgERKPiYHytoNn7lr2-yneWb_pGITYCzBbfvxCmuS04075BtvtBosrKXKo_0zz8Cbj8H16Ol-zsrYYH.jpg?r=c10"
+                }
+            }
+        ]
+    },
+    {
+        "id": "series4",
+        "year": 2020,
+        "title": "The Last Dance",
+        "plot": "Charting the rise of the 1990s Chicago Bulls, led by Michael Jordan, one of the most notable dynasties in sports history.",
+        "cover": "https:\/\/fotos.perfil.com\/\/2020\/05\/21\/900\/0\/the-last-dance-960042.jpg",
+        "episodes": [
+            {
+                "1": {
+                    "id": "1",
+                    "date": "2020-04-20",
+                    "title": "Episode I",
+                    "plot": "Flashbacks chronicle Michael Jordan's college and early NBA days. The Bulls make a preseason trip to Paris amid tensions with GM Jerry Krause.",
+                    "rating": 9,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABbpHXOZ3w_a3GpG3zlJnyN7n1DGXOOjGxXco0GRUA5i4Layw3Vw5yR9rhX5HQt_9ZtM8hs1d5nd-oS-ErHl5H7iFOm2Bt_7HW3gFqIMDVHbYLj2770sQpEV5.jpg?r=bd8"
+                }
+            },
+            {
+                "2": {
+                    "id": "2",
+                    "date": "2020-04-20",
+                    "title": "Episode II",
+                    "plot": "Scottie Pippen rises from obscurity to become one of the NBA's best players. An injury early in Michael's career sows distrust with Bulls management.",
+                    "rating": 9,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABbr1OjC7_XZzdVdwAn9V5fyokDLhIJCH8nhWunH4zeACJMO_Jnv8joP1ImsPxbiVINBOlEJW4WVC2TPUHbzGgbRYXWVpiFeKo1X8SyLblf3u8ZZ06TwHu3pf.jpg?r=ee6"
+                }
+            },
+            {
+                "3": {
+                    "id": "3",
+                    "date": "2020-04-27",
+                    "title": "Episode III",
+                    "plot": "Dennis Rodman's attitude and energy help the team win, but bring the drama off the court. The Bulls struggle to overcome the Pistons in the late '80s.",
+                    "rating": 9,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABbGmMM_JU_krYAwwBixIDnS92kGtcJiXU6YDn5fI8Ib7fzZ2Mcn_R3XLgqwBSfGtD7BhkRYDUAGqBmlNfzWucNXzxUWwWikwsuFoLyWq59wxVwzZ-swz4NtK.jpg?r=3cd"
+                }
+            },
+            {
+                "4": {
+                    "id": "4",
+                    "date": "2020-04-27",
+                    "title": "Episode IV",
+                    "plot": "Phil Jackson's unique philosophy and demeanor take the Bulls to the next level. The team finally gets past Detroit and earns a shot at an NBA title.",
+                    "rating": 9.1,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABed99VobyuxqVJoQzc0Vd6KTRKXO_CRdwKKnBGon8c_C24PzVs8Ag5Rfx9eisRr-hX4CSGsIZnZrj2mvT1FBCsufB86NyHWP0NO6i76-TNuRlYktw9Tu2Hs5.jpg?r=2ba"
+                }
+            },
+            {
+                "5": {
+                    "id": "5",
+                    "date": "2020-05-04",
+                    "title": "Episode V",
+                    "plot": "From Air Jordan and 'Be Like Mike' to the '92 NBA Finals and the Olympic Dream Team, Michael becomes a global cultural icon unlike any other.",
+                    "rating": 9,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABRpW7lXhhlOVbA2HnTc6-HP6PrY0ZIMaeieTzAnWMqblKEHsPvBBgnmtyM8rgTexjc9PDv3tNv6uPunYJHIZwPkDA1EzsRe7AAxiz1HapD8z2PA2t9N10HnK.jpg?r=502"
+                }
+            },
+            {
+                "6": {
+                    "id": "6",
+                    "date": "2020-05-04",
+                    "title": "Episode VI",
+                    "plot": "A revealing book and scrutiny of his gambling put a dent in Michael's reputation, but he remains focused on winning a third straight title in 1993.",
+                    "rating": 8.9,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABcsJdWPvNh-rfzUCPRXJ9-6U0K0bLkoyBH9lgqDZD8yULdW8m8dCL9KGmrpMGQh-DvvkwVZfueWmDuKTCC6m9yexHcv1fL_Uwl2nLIXgX-q2MZeUxZ9Ri3Nx.jpg?r=cd3"
+                }
+            },
+            {
+                "7": {
+                    "id": "7",
+                    "date": "2020-05-11",
+                    "title": "Episode VII",
+                    "plot": "Crushed by the death of his father, a mentally exhausted Michael retires in 1993 - to play baseball. The Bulls move on with Scottie in the lead role.",
+                    "rating": 9.2,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABXkluZYCrECzyPolGF2i2BLTV-3jszu9MY3OsnHfVENibSIq_TyX6AB2M0eo9ci1oZ_ROxIzeGtrDVJqrIPNequsqwaaFw92seRDci-kK8qeF2y0ok8Y1xFe.jpg?r=1c8"
+                }
+            },
+            {
+                "8": {
+                    "id": "8",
+                    "date": "2020-05-11",
+                    "title": "Episode VIII",
+                    "plot": "Michael's return energizes the Bulls, the city and the NBA, but a playoff loss in 1995 fuels him to work harder than ever to get back on top.",
+                    "rating": 9.2,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABZYmzF8kcunRNvAdaNY3ptVqRtZNu3nLO01wUUhboS-UmUtI7-hLK07R0KReQQRSSUzvhhdjzK54ihM7uf8gyGnAznTVkEwpO9mXREzl3a3BlGmtwH4XY5T6.jpg?r=c32"
+                }
+            },
+            {
+                "9": {
+                    "id": "9",
+                    "date": "2020-05-18",
+                    "title": "Episode IX",
+                    "plot": "The Bulls face stiff challenges to their reign in 1997 against Utah and in 1998 versus Indiana. Role player Steve Kerr makes his mark on the dynasty.",
+                    "rating": 9.3,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABQO9KIH7bDP1SSGy0EV8ZvijbA0nzyBTwO3VQqLQfCFoVGRGk9JLy8iwVhvyw7n3kkqJ5f2MitxrhZGtxj4itak4meMdLdqeZG2qkhtJLrTcliiUlEja9QmT.jpg?r=615"
+                }
+            },
+            {
+                "10": {
+                    "id": "10",
+                    "date": "2020-05-18",
+                    "title": "Episode X",
+                    "plot": "Battered and exhausted, the Bulls conclude their 'Last Dance' with a sixth championship. Michael, Phil and others reflect on the end of the dynasty.",
+                    "rating": 9.5,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABQoDURjBPberecVdJcMotg2qioT5I0foyr2Z5gWKQ6Rfz1dDyjd4Wsl2uic14X0wTfXemMs6ywjQQaoT7vNvvWxJLHuF0U1IIHLBDDyoGULwNJEzZXXb7WQN.jpg?r=02d"
+                }
+            }
+        ]
+    },
+    {
+        "id": "series5",
+        "year": "2022",
+        "title": "Vikings: Valhalla",
+        "plot": "Follow-up series to 'Vikings' set 100 years afterward and centering on the adventures of Leif Erikson, Freydis, Harald Hardrada and the Norman King William the Conqueror.",
+        "cover": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/vikings-season-1-cast-photo-1645803820.png?crop=0.655xw:1.00xh;0.173xw,0&resize=640:*",
+        "episodes": [
+            {
+                "1": {
+                    "id": 1,
+                    "date": "2022-02-25",
+                    "title": "The Greenlanders",
+                    "plot": "Plotting to avenge a massacre in England, Viking armies converge in Kattegat - but siblings Leif and Freydis exact a different kind of retribution.",
+                    "rating": 7.4,
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABWHqgJ-g8uPR27CT_lKpVAGRBBQt7BIpXxXieDXP_fGr3g3l38sbfFxSI63GWsEoc9Ryx5nZGDmcaV1MYsEZjH4by17Rf9UhafA7O44IBh0x3P4llP1Vr2hq.jpg?r=200"
+                }
+            },
+            {
+                "2": {
+                    "id": 2,
+                    "date": "2022-02-25",
+                    "title": "Viking",
+                    "plot": "To save the life of Freydis, Leif agrees to join Canute and Harald's siege of London. Queen Emma dispatches stepson Edmund to secure an ally's help.",
+                    "rating": "7.3",
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABfrUPsFEEh4cgIG23FJyWHwvTgZCOf9kEMhEx_7i5z9pJ9JibkEg6ww6sOooZEqux0eVmxgy2sG-IdL8RMbe1_-Cn_8Ix1AW--9Mkgo8hB7IAK9U1a2eBonT.jpg?r=e49"
+                }
+            },
+            {
+                "3": {
+                    "id": 3,
+                    "date": "2022-02-25",
+                    "title": "The Marshes",
+                    "plot": "On a pilgrimage, Freydis and her party are savagely attacked. Harald and Leif seek a route through the marshes near London as Edmund is crowned king.",
+                    "rating": "7.4",
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABfmsFLLRuhC3WYeZfsDcDl9IdReRrRiI-zMu3wVWKeVgcsUM2lsxxTqeIN4bZbA3_-EdVQaNhEJfsF2GwYo-SJE9PWdSyCcRpdvyHBP4tsgn27_J_-3Si98g.jpg?r=2aa"
+                }
+            },
+            {
+                "4": {
+                    "id": 4,
+                    "date": "2022-02-25",
+                    "title": "The Bridge",
+                    "plot": "Leif proposes an audacious assault on London, one that Emma and Godwin fear their brash and headstrong boy-king, Edmund, will be too reckless to defeat.",
+                    "rating": "8.3",
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABb7-Q0aex1GFffD894z-ef-E_NG_NBQuLMPQdpqUhfE-6AFlLP4KIM-e9H9IJpbjA04AUNntxqd3uflCZIeC5Ytb8f50f9RSQ-baMc-e_fqet4w7tjjqa3_K.jpg?r=e05"
+                }
+            },
+            {
+                "5": {
+                    "id": 5,
+                    "date": "2022-02-25",
+                    "title": "Miracle",
+                    "plot": "Schemes, betrayals and politics rule the day as a new monarch takes the throne of England. Leif is hailed as a hero but secretly questions his faith.",
+                    "rating": "7.4",
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABYDCAf5MXtLzCeiWHvUUp_eWrwxVy3pl0QEMTlEgs10X9MbcrIEisEUbtgkqTguPLYV_9zZmJV_cNwz7HDzP0SEtHL456Ku6jTVZZcdF9ptlOhDGDuGJ8Vs4.jpg?r=381"
+                }
+            },
+            {
+                "6": {
+                    "id": 6,
+                    "date": "2022-02-25",
+                    "title": "The Last Daughter of Uppsala",
+                    "plot": "Freydis returns to Kattegat and joins a sacred order. Canute solidifies his power in England. K\u00e5re revisits the holy site of a childhood trauma.",
+                    "rating": "7.2",
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABdPOnlRDNDbWPzEhPOxnf9uydmeZ-YuRB1VjGyaRUgyyuJXBXHD-8qBaMMcqAzXVv83Lb9P0OUYhsXsYjN80Wi-BAbk2VWwKrNKQ1p9I9C4zcaGg61dZ6f5w.jpg?r=9a6"
+                }
+            },
+            {
+                "7": {
+                    "id": 7,
+                    "date": "2022-02-25",
+                    "title": "Choices",
+                    "plot": "Olaf makes a pact with K\u00e5re as Kattegat prepares for its defense. In Canute's absence, his father, Sweyn Forkbeard, shares England's throne with Edmund.",
+                    "rating": "7.4",
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABbxLVtSzGeinBozhm9D0dy3p7GVXefifzdzCSAFO5a4uaEsyB8axmImeQNWb7ZaThaVecfh1Qx_aJeljUT08WWTBH8AZOFIF-PQNrnt-pAEirO20E2W-QOyX.jpg?r=981"
+                }
+            },
+            {
+                "8": {
+                    "id": 8,
+                    "date": "2022-02-25",
+                    "title": "The End of the Beginning",
+                    "plot": "Olaf and K\u00e5re gather their forces to invade Kattegat. Palace intrigue over control of England's throne results in an unexpected turn of events.",
+                    "rating": "8",
+                    "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABaJzbjq4nkLjy26gW6pKERp0t9yrd2pC4AfNjWwX_zIrVN60tqR_yqRaN4EwymacIk_O2amCizc_krluvJvtrOO6Kfes6_U3xJYGu28O6OQMZVtX1U8rD7Yd.jpg?r=8ec"
+                }
+            }
+        ]
+    }
+]
