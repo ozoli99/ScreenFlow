@@ -29,8 +29,18 @@
                 </ul>
             </div>
         </nav>
-        <header>
-
+        <!-- Header-->
+        <header class="masthead text-center text-white bg-image" style="background-image: url('Media/TheWitcher.jpg');">
+            <div class="masthead-content">
+                <div class="container px-5">
+                    <h1 class="masthead-heading mb-0">ScreenFlow</h1>
+                    <h2 class="display-6 mb-0">The ultimate tool for tracking your TV Show progress!</h2>
+                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Show TV Shows</a>
+                </div>
+            </div>
+            <div class="bg-circle-1 bg-circle" style="left: -60rem;"></div>
+            <div class="bg-circle-2 bg-circle"></div>
+            <div class="bg-circle-3 bg-circle"></div>
         </header>
     </body>
 </html>
