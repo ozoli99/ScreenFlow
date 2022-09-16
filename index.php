@@ -59,31 +59,31 @@
                         <?php if($i % 2 == 1): ?>
                             <div class="col-lg-6 order-lg-2">
                                 <div class="p-5">
-                                    <a href="">
-                                        <img class="img-fluid rounded-circle" src="" alt="">
+                                    <a href="./<?= $show["id"] ?>.php">
+                                        <img class="img-fluid rounded-circle" src="<?= $show["cover"] ?>" alt="..."/>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-lg-6 order-lg-1">
                                 <div class="p-5">
-                                    <h2 class="display-4"></h2>
-                                    <p class="text-white-50"> episodes | Last epidose on </p>
-                                    <p></p>
+                                    <h2 class="display-4"><?= $show["title"] ?></h2>
+                                    <p class="text-white-50"><?= count($show["episodes"]) ?> episodes | Last epidose on <?= $show["episodes"][count($show["episodes"])-1][count($show["episodes"])]["date"] ?></p>
+                                    <p><?= $show["plot"] ?></p>
                                 </div>
                             </div>
                         <?php else: ?>
                             <div class="col-lg-6">
                                 <div class="p-5">
-                                    <a href="./<?= $show["id"]?>.php">
-                                        <img class="img-fluid rounded-circle" src="<?= $show["cover"]?>" alt="..."/>
+                                    <a href="./<?= $show["id"] ?>.php">
+                                        <img class="img-fluid rounded-circle" src="<?= $show["cover"] ?>" alt="..."/>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="p-5">
-                                    <h2 class="display-4"><?= $show["title"]?></h2>
-                                    <p class="text-white-50"><?= count($show['episodes'])?> episodes | Last episode on <?= $show['episodes'][count($show['episodes'])-1][count($show['episodes'])]['date']?></p>
-                                    <p><?= $show["plot"]?></p>
+                                    <h2 class="display-4"><?= $show["title"] ?></h2>
+                                    <p class="text-white-50"><?= count($show['episodes']) ?> episodes | Last episode on <?= $show['episodes'][count($show['episodes'])-1][count($show['episodes'])]['date'] ?></p>
+                                    <p><?= $show["plot"] ?></p>
                                 </div>
                             </div>
                         <?php endif; ?>
