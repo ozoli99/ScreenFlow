@@ -42,7 +42,78 @@
             </div>
         </nav>
         <header class="masthead text-center text-white bg-image" style="background-image: url('Media/TheLastDanceBG.jpg');">
-        
+            <div class="masthead-content">
+                <div class="container py-1 px-5">
+                    <div class="row g-0 align-items-center px-5">
+                        <div class="col mb-5 mb-lg-0 px-5">
+                            <div class="card mx-5" style="background: hsla(0, 0%, 9%, 0.5); backdrop-filter: blur(30px);">
+                                <div class="card-body p-5 shadow-5 text-center">
+                                    <h2 class="fw-bold mb-5">Add new TV Series to ScreenFlow</h2>
+                                    <p><?= $information["series"] ?></p>
+                                    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" novalidate>
+                                        <div class="form-outline mb-4">
+                                            <input type="text" id="newseriesTitle" name="newseriesTitle" value="<?php echo htmlspecialchars($_POST["newseriesTitle"] ?? "", ENT_QUOTES); ?>" class="form-control bg-dark text-white" placeholder="Title"/><span style="color: red;"><?= $errors["newseriesTitleError"] ?></span>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <input type="number" id="newseriesYear" name="newseriesYear" value="<?php echo htmlspecialchars($_POST["newseriesYear"] ?? "", ENT_QUOTES); ?>" class="form-control bg-dark text-white" placeholder="Year"/><span style="color: red;"><?= $errors["newseriesYearError"] ?></span>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <input type="textarea" id="newseriesPlot" name="newseriesPlot" value="<?php echo htmlspecialchars($_POST["newseriesPlot"] ?? "", ENT_QUOTES); ?>" class="form-control bg-dark text-white" placeholder="Plot"/><span style="color: red;"><?= $errors["newseriesPlotError"] ?></span>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <input type="url" id="newseriesCover" name="newseriesCover" value="<?php echo htmlspecialchars($_POST["newseriesCover"] ?? "", ENT_QUOTES); ?>" class="form-control bg-dark text-white" placeholder="Cover"/><span style="color: red;"><?= $errors["newseriesCoverError"] ?></span>
+                                        </div>
+                                        <?php if($is_new_episode): ?>
+                                            <?php $i = 1; ?>
+                                            <?php foreach($episodes as $episode): ?>
+                                                <div class="row g-0 align-items-center px-5">
+                                                    <div class="col mb-5 mb-lg-0 px-5">
+                                                        <h2 class="lead text-start pb-1"><?= $episode["$i"]["title"]?></h2>
+                                                    </div>
+                                                </div>
+                                                <?php $i = $i + 1; ?>
+                                            <?php endforeach; ?>
+                                            <h2 class="lead text-start pb-1">New episode</h2>
+                                            <p><?= $information["episode"] ?></p>
+                                            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" novalidate>
+                                                <div class="form-outline mb-4">
+                                                    <input type="date" id="newepisodeDate" name="newepisodeDate" class="form-control bg-dark text-white" placeholder="Date"/><span style="color: red;"><?= $errors["newepisodeDateError"] ?></span>
+                                                </div>
+                                                <div class="form-outline mb-4">
+                                                    <input type="text" id="newepisodeTitle" name="newepisodeTitle" class="form-control bg-dark text-white" placeholder="Title"/><span style="color: red;"><?= $errors["newepisodeTitleError"] ?></span>
+                                                </div>
+                                                <div class="form-outline mb-4">
+                                                    <input type="textarea" id="newepisodePlot" name="newepisodePlot" class="form-control bg-dark text-white" placeholder="Plot"/><span style="color: red;"><?= $errors["newepisodePlotError"] ?></span>
+                                                </div>
+                                                <div class="form-outline mb-4">
+                                                    <input type="number" step="0.1" id="newepisodeRating" name="newepisodeRating" class="form-control bg-dark text-white" placeholder="Rating"/><span style="color: red;"><?= $errors["newepisodeRatingError"] ?></span>
+                                                </div>
+                                                <div class="form-outline mb-4">
+                                                    <input type="url" id="newepisodeCover" name="newepisodeCover" class="form-control bg-dark text-white" placeholder="Cover"/><span style="color: red;"><?= $errors["newepisodeCoverError"] ?></span>
+                                                </div>
+                                                <div class="form-outline mb-4">
+                                                    <input type="submit" class="btn btn-primary btn-block mb-4" name="newepisodeAdd" value="Add new episode">
+                                                </div>
+                                            </form>
+                                        <?php else: ?>
+                                            <div class="form-outline mb-4">
+                                                <input type="submit" class="btn btn-primary btn-block mb-4" name="newepisodeMode" value="Add new episode">
+                                            </div>
+                                        <?php endif; ?>
+                                        <input type="submit" class="btn btn-primary btn-block mb-4" name="newseriesAdd" value="Add new TV Series">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-circle-1 bg-circle"></div>
+            <div class="bg-circle-2 bg-circle"></div>
+            <div class="bg-circle-3 bg-circle"></div>
         </header>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
