@@ -101,7 +101,7 @@
             <div class="bg-circle-2 bg-circle"></div>
             <div class="bg-circle-3 bg-circle"></div>
         </header>
-        <!-- Content section 1-->
+        <!-- Content section-->
         <?php $i = 1; ?>
         <?php foreach($series2["episodes"] as $episode): ?>
             <section id="scroll" class="bg-dark text-white py-5">
