@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Orosz Zoltán">
 
+        <link rel="icon" type="image/x-icon" href="assets/logo.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -42,5 +43,26 @@
             <div class="bg-circle-2 bg-circle"></div>
             <div class="bg-circle-3 bg-circle"></div>
         </header>
+        <!--Content section-->
+        <section id="scroll" class="py-5 bg-dark text-white">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5">
+                            <a href="">
+                                <img class="img-fluid rounded-circle" src="" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4"></h2>
+                            <p class="text-white-50"> episodes | Last epidose on </p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
