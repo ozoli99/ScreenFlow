@@ -4,6 +4,35 @@
 
     $json_string = file_get_contents("users.json");
     $users = json_decode($json_string, true);
+
+    $active_user = [];
+    $has_user = false;
+    $is_admin = false;
+
+    if (is_array($users) || is_object($users)) {
+        foreach ($users as $user) {
+            if ($user["login"]) {
+                $active_user = $user;
+                $has_user = true;
+                if ($active_user["username"] === "admin") {
+                    $is_admin = true;
+                }
+            }
+        }
+    }
+
+    if (isset($_GET["logout"])) {
+        foreach ($users as $key => $user) {
+            if ($user["login"]) {
+                $users[$key]["login"] = false;
+                $has_user = false;
+                $active_user = [];
+            }
+        }
+    }
+
+    $new_array = json_encode($users, JSON_PRETTY_PRINT);
+    file_put_contents("users.json", $new_array);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,7 +62,17 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="">Log In</a></li>
+                    <?php if($has_user): ?>
+                        <li class="nav-item"><a class="nav-link" href="./index.php?logout=true">Log Out</a></li>
+                        <li class="nav-item pt-1" style="color: #6c757d;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            </svg>
+                            <?= $active_user["username"] ?>
+                        </li>
+                    <?php else: ?>
+                        <li class="nav-item"><a class="nav-link" href="./login.php">Log In</a></li>
+                    <?php endif; ?>
                 </ul>
             </div>
         </nav>
@@ -92,6 +131,25 @@
             </section>
             <?php $i = $i + 1; ?>
         <?php endforeach; ?>
+        <?php if($is_admin): ?>
+            <section class="py-5 bg-dark text-white">
+                <div class="container px-5">
+                    <div class="row gx-3">
+                        <div class="col text-end order-lg-1">
+                            <a href="./newseries.php">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col order-lg-2 py-1">
+                            <p>Add new TV Series</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <?php endif; ?>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
