@@ -1,3 +1,10 @@
+<?php
+    $json_string = file_get_contents("series.json");
+    $series = json_decode($json_string, true);
+
+    $json_string = file_get_contents("users.json");
+    $users = json_decode($json_string, true);
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -64,7 +71,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
