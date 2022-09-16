@@ -14,10 +14,10 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        
-        <title> - ScreenFlow</title>
+
+        <title><?= $series1["title"] ?> - ScreenFlow</title>
     </head>
-    <body>
+    <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
             <div class="container px-5">
@@ -43,7 +43,16 @@
         </nav>
         <!-- Header-->
         <header class="masthead text-center text-white bg-image" style="background-image: url('Media/StrangerThings.jpg');">
-        
+            <div class="masthead-content">
+                <div class="container px-5">
+                    <h1 class="masthead-heading mb-0"><?= $series1["title"] ?></h1>
+                    <h2 class="lead mb-0 mx-5"><?= $series1["plot"] ?></h2>
+                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Show progress</a>
+                </div>
+            </div>
+            <div class="bg-circle-1 bg-circle" style="left: -60rem;"></div>
+            <div class="bg-circle-2 bg-circle"></div>
+            <div class="bg-circle-3 bg-circle"></div>
         </header>
 
         <!-- Bootstrap core JS-->
