@@ -50,27 +50,48 @@
             <div class="bg-circle-2 bg-circle"></div>
             <div class="bg-circle-3 bg-circle"></div>
         </header>
-        <!--Content section-->
-        <section id="scroll" class="py-5 bg-dark text-white">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5">
-                            <a href="">
-                                <img class="img-fluid rounded-circle" src="" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4"></h2>
-                            <p class="text-white-50"> episodes | Last epidose on </p>
-                            <p></p>
-                        </div>
+        <!-- Content section-->
+        <?php $i = 1; ?>
+        <?php foreach($series as $show): ?>
+            <section id="scroll" class="py-5 bg-dark text-white">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center">
+                        <?php if($i % 2 == 1): ?>
+                            <div class="col-lg-6 order-lg-2">
+                                <div class="p-5">
+                                    <a href="">
+                                        <img class="img-fluid rounded-circle" src="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-lg-1">
+                                <div class="p-5">
+                                    <h2 class="display-4"></h2>
+                                    <p class="text-white-50"> episodes | Last epidose on </p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        <?php else: ?>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <a href="./<?= $show["id"]?>.php">
+                                        <img class="img-fluid rounded-circle" src="<?= $show["cover"]?>" alt="..."/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <h2 class="display-4"><?= $show["title"]?></h2>
+                                    <p class="text-white-50"><?= count($show['episodes'])?> episodes | Last episode on <?= $show['episodes'][count($show['episodes'])-1][count($show['episodes'])]['date']?></p>
+                                    <p><?= $show["plot"]?></p>
+                                </div>
+                            </div>
+                        <?php endif; ?>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <?php $i = $i + 1; ?>
+        <?php endforeach; ?>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
