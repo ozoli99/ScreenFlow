@@ -54,7 +54,123 @@
             <div class="bg-circle-2 bg-circle"></div>
             <div class="bg-circle-3 bg-circle"></div>
         </header>
-
+        <!-- Content section 1-->
+        <?php $i = 1; ?>
+        <?php foreach($series1["episodes"] as $episode): ?>
+            <section id="scroll" class="bg-dark text-white py-5">
+                <div class="container px-0">
+                    <div class="row gx-5 align-items-center">
+                        <?php if($has_user): ?>
+                            <?php if($i <= $active_user["watched"]["series1"]): ?>
+                                <?php if($i % 2 == 1): ?>
+                                    <div class="col-lg-5 order-lg-2">
+                                        <div class="p-1 py-5"><img class="img-fluid rounded" src="<?= $episode[$i]["cover"]?>" alt="..."/></div>
+                                    </div>
+                                    <div class="col-lg-7 order-lg-1">
+                                        <div class="p-1 py-5">
+                                            <h2 class="display-6">
+                                                <?= $episode[$i]["title"]?>
+                                                <a href="./series1.php?watched=<?= $i ?>">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                                                    </svg>
+                                                </a>
+                                            </h2>
+                                            <p class="text-white-50">Episode aired <?= $episode[$i]["date"]?> | IMDb rating: <?= $episode[$i]["rating"]?></p>
+                                            <p><?= $episode[$i]["plot"]?></p>
+                                        </div>
+                                    </div>
+                                <?php else: ?>
+                                    <div class="col-lg-5">
+                                        <div class="p-1 py-5"><img class="img-fluid rounded" src="<?= $episode[$i]["cover"]?>" alt="..."/></div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="p-1 py-5">
+                                            <h2 class="display-6">
+                                                <?= $episode[$i]["title"]?>
+                                                <a href="./series1.php?watched=<?= $i ?>">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                                                    </svg>
+                                                </a>
+                                            </h2>
+                                            <p class="text-white-50">Episode aired <?= $episode[$i]["date"]?> | IMDb rating: <?= $episode[$i]["rating"]?></p>
+                                            <p><?= $episode[$i]["plot"]?></p>
+                                        </div>
+                                    </div>
+                                <?php endif; ?>
+                            <?php else: ?>
+                                <?php if($i % 2 == 1): ?>
+                                    <div class="col-lg-5 order-lg-2">
+                                        <div class="p-1 py-5"><img class="img-fluid rounded" style="filter: grayscale(1);" src="<?= $episode[$i]["cover"]?>" alt="..."/></div>
+                                    </div>
+                                    <div class="col-lg-7 order-lg-1">
+                                        <div class="p-1 py-5">
+                                            <h2 class="display-6 text-white-50">
+                                                <?= $episode[$i]["title"]?>
+                                                <a href="./series1.php?unwatched=<?= $i ?>">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                                    </svg>
+                                                </a>
+                                            </h2>
+                                            <p class="text-white-50">Episode aired <?= $episode[$i]["date"]?> | IMDb rating: <?= $episode[$i]["rating"]?></p>
+                                            <p class="text-white-50"><?= $episode[$i]["plot"]?></p>
+                                        </div>
+                                    </div>
+                                <?php else: ?>
+                                    <div class="col-lg-5">
+                                        <div class="p-1 py-5"><img class="img-fluid rounded" style="filter: grayscale(1);" src="<?= $episode[$i]["cover"]?>" alt="..."/></div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="p-1 py-5">
+                                            <h2 class="display-6 text-white-50">
+                                                <?= $episode[$i]["title"]?>
+                                                <a href="./series1.php?unwatched=<?= $i ?>">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                                        <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                                    </svg>
+                                                </a>
+                                            </h2>
+                                            <p class="text-white-50">Episode aired <?= $episode[$i]["date"]?> | IMDb rating: <?= $episode[$i]["rating"]?></p>
+                                            <p class="text-white-50"><?= $episode[$i]["plot"]?></p>
+                                        </div>
+                                    </div>
+                                <?php endif; ?>
+                            <?php endif; ?>
+                        <?php else: ?>
+                            <?php if($i % 2 == 1): ?>
+                                <div class="col-lg-5 order-lg-2">
+                                    <div class="p-1 py-5"><img class="img-fluid rounded" src="<?= $episode[$i]["cover"]?>" alt="..."/></div>
+                                </div>
+                                <div class="col-lg-7 order-lg-1">
+                                    <div class="p-1 py-5">
+                                        <h2 class="display-6"><?= $episode[$i]["title"]?></h2>
+                                        <p class="text-white-50">Episode aired <?= $episode[$i]["date"]?> | IMDb rating: <?= $episode[$i]["rating"]?></p>
+                                        <p><?= $episode[$i]["plot"]?></p>
+                                    </div>
+                                </div>
+                            <?php else: ?>
+                                <div class="col-lg-5">
+                                    <div class="p-1 py-5"><img class="img-fluid rounded" src="<?= $episode[$i]["cover"]?>" alt="..."/></div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="p-1 py-5">
+                                        <h2 class="display-6"><?= $episode[$i]["title"]?></h2>
+                                        <p class="text-white-50">Episode aired <?= $episode[$i]["date"]?> | IMDb rating: <?= $episode[$i]["rating"]?></p>
+                                        <p><?= $episode[$i]["plot"]?></p>
+                                    </div>
+                                </div>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            </section>
+            <?php $i = $i + 1; ?>
+        <?php endforeach; ?>
+        
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
