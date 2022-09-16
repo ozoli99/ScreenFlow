@@ -1,0 +1,82 @@
+[
+    {
+        "1": {
+            "id": 1,
+            "date": "2022-02-25",
+            "title": "The Greenlanders",
+            "plot": "Plotting to avenge a massacre in England, Viking armies converge in Kattegat - but siblings Leif and Freydis exact a different kind of retribution.",
+            "rating": 7.4,
+            "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABWHqgJ-g8uPR27CT_lKpVAGRBBQt7BIpXxXieDXP_fGr3g3l38sbfFxSI63GWsEoc9Ryx5nZGDmcaV1MYsEZjH4by17Rf9UhafA7O44IBh0x3P4llP1Vr2hq.jpg?r=200"
+        }
+    },
+    {
+        "2": {
+            "id": 2,
+            "date": "2022-02-25",
+            "title": "Viking",
+            "plot": "To save the life of Freydis, Leif agrees to join Canute and Harald's siege of London. Queen Emma dispatches stepson Edmund to secure an ally's help.",
+            "rating": "7.3",
+            "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABfrUPsFEEh4cgIG23FJyWHwvTgZCOf9kEMhEx_7i5z9pJ9JibkEg6ww6sOooZEqux0eVmxgy2sG-IdL8RMbe1_-Cn_8Ix1AW--9Mkgo8hB7IAK9U1a2eBonT.jpg?r=e49"
+        }
+    },
+    {
+        "3": {
+            "id": 3,
+            "date": "2022-02-25",
+            "title": "The Marshes",
+            "plot": "On a pilgrimage, Freydis and her party are savagely attacked. Harald and Leif seek a route through the marshes near London as Edmund is crowned king.",
+            "rating": "7.4",
+            "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABfmsFLLRuhC3WYeZfsDcDl9IdReRrRiI-zMu3wVWKeVgcsUM2lsxxTqeIN4bZbA3_-EdVQaNhEJfsF2GwYo-SJE9PWdSyCcRpdvyHBP4tsgn27_J_-3Si98g.jpg?r=2aa"
+        }
+    },
+    {
+        "4": {
+            "id": 4,
+            "date": "2022-02-25",
+            "title": "The Bridge",
+            "plot": "Leif proposes an audacious assault on London, one that Emma and Godwin fear their brash and headstrong boy-king, Edmund, will be too reckless to defeat.",
+            "rating": "8.3",
+            "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABb7-Q0aex1GFffD894z-ef-E_NG_NBQuLMPQdpqUhfE-6AFlLP4KIM-e9H9IJpbjA04AUNntxqd3uflCZIeC5Ytb8f50f9RSQ-baMc-e_fqet4w7tjjqa3_K.jpg?r=e05"
+        }
+    },
+    {
+        "5": {
+            "id": 5,
+            "date": "2022-02-25",
+            "title": "Miracle",
+            "plot": "Schemes, betrayals and politics rule the day as a new monarch takes the throne of England. Leif is hailed as a hero but secretly questions his faith.",
+            "rating": "7.4",
+            "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABYDCAf5MXtLzCeiWHvUUp_eWrwxVy3pl0QEMTlEgs10X9MbcrIEisEUbtgkqTguPLYV_9zZmJV_cNwz7HDzP0SEtHL456Ku6jTVZZcdF9ptlOhDGDuGJ8Vs4.jpg?r=381"
+        }
+    },
+    {
+        "6": {
+            "id": 6,
+            "date": "2022-02-25",
+            "title": "The Last Daughter of Uppsala",
+            "plot": "Freydis returns to Kattegat and joins a sacred order. Canute solidifies his power in England. K\u00e5re revisits the holy site of a childhood trauma.",
+            "rating": "7.2",
+            "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABdPOnlRDNDbWPzEhPOxnf9uydmeZ-YuRB1VjGyaRUgyyuJXBXHD-8qBaMMcqAzXVv83Lb9P0OUYhsXsYjN80Wi-BAbk2VWwKrNKQ1p9I9C4zcaGg61dZ6f5w.jpg?r=9a6"
+        }
+    },
+    {
+        "7": {
+            "id": 7,
+            "date": "2022-02-25",
+            "title": "Choices",
+            "plot": "Olaf makes a pact with K\u00e5re as Kattegat prepares for its defense. In Canute's absence, his father, Sweyn Forkbeard, shares England's throne with Edmund.",
+            "rating": "7.4",
+            "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABbxLVtSzGeinBozhm9D0dy3p7GVXefifzdzCSAFO5a4uaEsyB8axmImeQNWb7ZaThaVecfh1Qx_aJeljUT08WWTBH8AZOFIF-PQNrnt-pAEirO20E2W-QOyX.jpg?r=981"
+        }
+    },
+    {
+        "8": {
+            "id": 8,
+            "date": "2022-02-25",
+            "title": "The End of the Beginning",
+            "plot": "Olaf and K\u00e5re gather their forces to invade Kattegat. Palace intrigue over control of England's throne results in an unexpected turn of events.",
+            "rating": "8",
+            "cover": "https:\/\/occ-0-7107-3466.1.nflxso.net\/dnm\/api\/v6\/9pS1daC2n6UGc3dUogvWIPMR_OU\/AAAABaJzbjq4nkLjy26gW6pKERp0t9yrd2pC4AfNjWwX_zIrVN60tqR_yqRaN4EwymacIk_O2amCizc_krluvJvtrOO6Kfes6_U3xJYGu28O6OQMZVtX1U8rD7Yd.jpg?r=8ec"
+        }
+    }
+]
