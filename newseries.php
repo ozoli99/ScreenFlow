@@ -1,3 +1,133 @@
+<?php
+    $data = array_fill_keys(array("newseriesTitle", "newseriesYear", "newseriesPlot", "newseriesCover", "newepisodeDate", "newepisodeTitle", "newepisodePlot", "newepisodeRating", "newepisodeCover"), "");;
+    $errors = array_fill_keys(array("newseriesTitleError", "newseriesYearError", "newseriesPlotError", "newseriesCoverError", "newepisodeDateError", "newepisodeTitleError", "newepisodePlotError", "newepisodeRatingError", "newepisodeCoverError"), "");
+    $information = array_fill_keys(array("series", "episode"), "");
+    $is_login = false;
+    $has_user = false;
+    $is_new_episode = false;
+    $active_user = [];
+
+    $json_string = file_get_contents("series.json");
+    $series = json_decode($json_string, true);
+    $series_id = count($series) + 1;
+
+    $json_string = file_get_contents("users.json");
+    $users = json_decode($json_string, true);
+
+    $json_string = file_get_contents("episodes.json");
+    $episodes = json_decode($json_string, true);
+    $episode_id = count($episodes) + 1;
+
+    if (validate($_POST)) {
+        if (isset($_POST["newseriesAdd"])) {
+            $new_data = [
+                "id" => "series{$series_id}",
+                "year" => $data["newseriesYear"],
+                "title" => $data["newseriesTitle"],
+                "plot" => $data["newseriesPlot"],
+                "cover" => $data["newseriesCover"],
+                "episodes" => $episodes
+            ];
+            array_push($series, $new_data);
+            $episodes = [];
+            $information["series"] = "TV Series successfully added";
+        }
+        if (isset($_POST["newepisodeAdd"])) {
+            $new_data = [
+                $episode_id => [
+                    "id" => $episode_id,
+                    "date" => $data["newepisodeDate"],
+                    "title" => $data["newepisodeTitle"],
+                    "plot" => $data["newepisodePlot"],
+                    "rating" => $data["newepisodeRating"],
+                    "cover" => $data["newepisodeCover"]
+                ]
+            ];
+            array_push($episodes, $new_data);
+            $episode_id = $episode_id + 1;
+            $is_new_episode = true;
+            $information["episode"] = "Episode successfully added";
+        }
+    }
+
+    if (isset($_GET["logout"])) {
+        foreach ($users as $key => $user) {
+            if ($user["login"]) {
+                $users[$key]["login"] = false;
+                $has_user = false;
+                $active_user = [];
+            }
+        }
+    }
+
+    if (isset($_POST["newepisodeMode"])) {
+        $is_new_episode = true;
+    }
+
+    $new_array = json_encode($users, JSON_PRETTY_PRINT);
+    file_put_contents("users.json", $new_array);
+
+    $new_array = json_encode($series, JSON_PRETTY_PRINT);
+    file_put_contents("series.json", $new_array);
+
+    $new_array = json_encode($episodes, JSON_PRETTY_PRINT);
+    file_put_contents("episodes.json", $new_array);
+
+    function validate($fv) {
+        global $data, $errors;
+
+        $post_newseries_adding = filter_input(INPUT_POST, "newseriesAdd");
+        $post_newepisode_adding = filter_input(INPUT_POST, "newepisodeAdd");
+        $post_newepisode_mode = filter_input(INPUT_POST, "newepisodeMode");
+
+        if (!empty($post_newseries_adding) || !empty($post_newepisode_mode)) {
+            if ($fv["newseriesTitle"] === "") $errors["newseriesTitleError"] = "Title is required";
+            else $data["newseriesTitle"] = $fv["newseriesTitle"];
+            
+            if ($fv["newseriesYear"] === "") $errors["newseriesYearError"] = "Year is required";
+            else if (!(is_numeric($fv["newseriesYear"]) && $fv["newseriesYear"] > 1800)) $errors["newseriesYearError"] = "Year must be a number greater than 1800";
+            else $data["newseriesYear"] = $fv["newseriesYear"];
+
+            if ($fv["newseriesPlot"] === "") $errors["newseriesPlotError"] = "Plot is required";
+            else if (strlen($fv["newseriesPlot"]) < 10) $errors["newseriesPlotError"] = "Plot must be at least 10 characters long";
+            else $data["newseriesPlot"] = $fv["newseriesPlot"];
+
+            if ($fv["newseriesCover"] === "") $errors["newseriesCoverError"] = "Cover is required";
+            else if (!filter_var($fv["newseriesCover"], FILTER_VALIDATE_URL)) $errors["newseriesCoverError"] = "Invalid URL format";
+            else $data["newseriesCover"] = $fv["newseriesCover"];
+        }
+
+        if (!empty($post_newepisode_adding)) {
+            echo "In validate post_newepisode_adding.";
+            if ($fv["newepisodeDate"] === "") $errors["newepisodeDateError"] = "Date is required";
+            else $data["newepisodeDate"] = $fv["newepisodeDate"];
+
+            if ($fv["newepisodeTitle"] === "") $errors["newepisodeTitleError"] = "Title is required";
+            else $data["newepisodeTitle"] = $fv["newepisodeTitle"];
+
+            if ($fv["newepisodePlot"] === "") $errors["newepisodePlotError"] = "Plot is required";
+            else if (strlen($fv["newepisodePlot"]) < 10) $errors["newepisodePlotError"] = "Plot must be at least 10 characters long";
+            else $data["newepisodePlot"] = $fv["newepisodePlot"];
+
+            if ($fv["newepisodeRating"] === "") $errors["newepisodeRatingError"] = "Rating is required";
+            else if (!(is_numeric($fv["newepisodeRating"]) && $fv["newepisodeRating"] >= 0.0 && $fv["newepisodeRating"] <= 10.0)) $errors["newepisodeRatingError"] = "Rating must be a number between 0.0 and 10.0";
+            else $data["newepisodeRating"] = $fv["newepisodeRating"];
+
+            if ($fv["newepisodeCover"] === "") $errors["newepisodeCoverError"] = "Cover is required";
+            else if (!filter_var($fv["newepisodeCover"], FILTER_VALIDATE_URL)) $errors["newepisodeCoverError"] = "Invalid URL format";
+            else $data["newepisodeCover"] = $fv["newepisodeCover"];
+        }
+
+        $is_empty = true;
+        foreach ($errors as $error => $error_value) {
+            if ($error_value !== "") {
+                $is_empty = false;
+            }
+        }
+
+        return $is_empty;
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
