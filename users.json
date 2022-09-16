@@ -1,0 +1,26 @@
+[
+    {
+        "id": "admin",
+        "username": "admin",
+        "email": "",
+        "login": true,
+        "watched": {
+            "series1": 8,
+            "series2": 9,
+            "series3": 8,
+            "series4": 10
+        }
+    },
+    {
+        "id": "ComputerScience99",
+        "username": "ozoli99",
+        "email": "orosz.zoltan99@gmail.com",
+        "login": false,
+        "watched": {
+            "series1": 1,
+            "series2": 0,
+            "series3": 0,
+            "series4": 6
+        }
+    }
+]
