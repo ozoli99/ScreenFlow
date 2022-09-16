@@ -1,3 +1,49 @@
+<?php
+    $json_string = file_get_contents("series.json");
+    $series = json_decode($json_string, true);
+    $series1 = $series[0];
+
+    $json_string = file_get_contents("users.json");
+    $users = json_decode($json_string, true);
+    
+    $active_user = [];
+    $has_user = false;
+
+    foreach ($users as $user) {
+        if ($user["login"]) {
+            $active_user = $user;
+            $has_user = true;
+        }
+    }
+
+    if (isset($_GET["logout"])) {
+        foreach ($users as $key => $user) {
+            if ($user["login"]) {
+                $users[$key]["login"] = false;
+                $has_user = false;
+                $active_user = [];
+            }
+        }
+    }
+
+    if (isset($_GET["watched"])) {
+        foreach ($users as $key => $user) {
+            if ($user["login"]) {
+                $users[$key]["watched"]["series1"] = $_GET["watched"] - 1;
+            }
+        }
+    }
+    if (isset($_GET["unwatched"])) {
+        foreach ($users as $key => $user) {
+            if ($user["login"]) {
+                $users[$key]["watched"]["series1"] = $_GET["unwatched"];
+            }
+        }
+    }
+
+    $new_array = json_encode($users, JSON_PRETTY_PRINT);
+    file_put_contents("users.json", $new_array);
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -170,7 +216,7 @@
             </section>
             <?php $i = $i + 1; ?>
         <?php endforeach; ?>
-        
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
